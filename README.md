@@ -97,7 +97,7 @@ const Ahmad = {
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=Ahmedkhn143&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7)
+![Trophies]([https://github-profile-trophy.vercel.app/?username=Ahmedkhn143&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7](https://github-trophies.vercel.app/?username=Ahmedkhn143&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7))
 
 </div>
 
