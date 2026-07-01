@@ -118,7 +118,7 @@ I design full flowcharts and logic structures on paper before writing a single l
 
 <div align="center">
 
-![Trophies]([![Trophies](https://github-trophies.vercel.app/?username=Ahmedkhn143&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7))
+![Trophies](https://github-profile-trophy.vercel.app/?username=Ahmedkhn143&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7)
 
 </div>
 
@@ -157,3 +157,4 @@ I design full flowcharts and logic structures on paper before writing a single l
 *"Great code starts with a pencil and a piece of paper."*
 
 </div>
+<!-- badge-trigger-commit -->
