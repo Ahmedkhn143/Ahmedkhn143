@@ -3,6 +3,8 @@
 <!-- PREMIUM CAPSULE HEADER -->
 [![Header](https://capsule-render.vercel.app/api?type=soft&color=0d1b2a&secondaryColor=00b4d8&height=180&section=header&text=AHMAD%20KHAN&fontSize=55&fontColor=ffffff&fontAlignY=40&desc=Frontend%20Architect%20%7C%20AI%20Engineer%20%7C%20Founder%20@%20Connexode&descAlignY=62&descSize=15&descColor=00b4d8&animation=fadeIn)](https://github.com/Ahmedkhn143)
 
+<!-- badge-trigger-commit -->
+<!-- badge-level-up-commit -->
 <!-- MODERN TYPING SVG -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=20&pause=1200&color=00B4D8&center=true&vCenter=true&width=650&lines=Crafting+premium+web+interfaces+with+precision;React+%7C+Next.js+%7C+Tailwind+CSS;Building+intelligent+agents+%26+n8n+automations;Founder+%40+Connexode+%E2%9A%A1;Writing+logical+architectures+before+code+%F0%9F%92%BB)](https://github.com/Ahmedkhn143)
 
