@@ -157,3 +157,5 @@ I design full flowcharts and logic structures on paper before writing a single l
 *"Great code starts with a pencil and a piece of paper."*
 
 </div>
+
+<!-- level-3-trigger-6 -->
