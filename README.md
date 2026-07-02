@@ -69,7 +69,7 @@ I design full flowcharts and logic structures on paper before writing a single l
 </td>
 <td width="50%" valign="top">
 
-#### 🔹 AI & Automation Engine
+#### 🔹 AI & Automation Enginer
 * ![Python](https://img.shields.io/badge/Python-0d1b2a?style=flat-square&logo=python&logoColor=00b4d8)
 * ![n8n](https://img.shields.io/badge/n8n-0d1b2a?style=flat-square&logo=n8n&logoColor=00b4d8)
 * ![Ollama](https://img.shields.io/badge/Ollama-0d1b2a?style=flat-square&logo=ollama&logoColor=ffffff)
@@ -88,7 +88,7 @@ I design full flowcharts and logic structures on paper before writing a single l
 </td>
 <td width="50%" valign="top">
 
-#### 🔹 DevOps & Systems
+#### 🔹 DevOps & System
 * ![Vercel](https://img.shields.io/badge/Vercel-0d1b2a?style=flat-square&logo=vercel&logoColor=ffffff)
 * ![GitHub](https://img.shields.io/badge/GitHub-0d1b2a?style=flat-square&logo=github&logoColor=00b4d8)
 * ![VS Code](https://img.shields.io/badge/VS_Code-0d1b2a?style=flat-square&logo=visualstudiocode&logoColor=00b4d8)
