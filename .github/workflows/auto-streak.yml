@@ -2,24 +2,35 @@ name: Auto Contribution Streak
 
 on:
   schedule:
-    - cron: "0 9 * * *"     # Runs every day at 09:00 UTC (02:00 PM PKT / 02:30 PM IST)
-  workflow_dispatch:        # Allows manual triggering from the Actions tab
+    - cron: "0 9 * * *"     # Runs every day at 09:00 UTC (2:00 PM PKT)
+    - cron: "0 15 * * *"    # Runs every day at 15:00 UTC (8:00 PM PKT) - 2nd commit
+  workflow_dispatch:         # Allows manual triggering from the Actions tab
 
 jobs:
   auto-commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update contribution log
         run: |
-          echo "Last Auto Contribution: $(date)" > streak.txt
+          DATE=$(date +"%Y-%m-%d")
+          TIME=$(date +"%H:%M:%S UTC")
+          RUN_NUMBER=${{ github.run_number }}
+          echo "Last Auto Contribution: $DATE at $TIME (Run #$RUN_NUMBER)" > streak.txt
+          echo "" >> streak.txt
+          echo "Total runs: $RUN_NUMBER" >> streak.txt
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Ahmedkhn143"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add streak.txt
-          git commit -m "chore: auto-update contribution streak [skip ci]" || echo "No changes to commit"
+          git commit -m "chore: daily auto contribution - $(date +'%Y-%m-%d %H:%M UTC')"
           git push origin main
