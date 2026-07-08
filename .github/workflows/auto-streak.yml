@@ -29,6 +29,7 @@ jobs:
           TIME=$(date +"%H:%M:%S UTC")
           RUN_NUMBER=${{ github.run_number }}
           UNIQUE_ID=$(date +"%s")
+          DAY_OF_YEAR=$(date +"%j")
           
           echo "=================================" > streak.txt
           echo "  GitHub Auto Streak - Active!  " >> streak.txt
@@ -37,8 +38,13 @@ jobs:
           echo "Last Contribution : $DATE at $TIME" >> streak.txt
           echo "Run Number        : #$RUN_NUMBER" >> streak.txt
           echo "Unique ID         : $UNIQUE_ID" >> streak.txt
+          echo "Day of Year       : $DAY_OF_YEAR" >> streak.txt
           echo "" >> streak.txt
           echo "Keep the streak alive! 🔥" >> streak.txt
+          echo "" >> streak.txt
+          echo "--- Activity Log ---" >> streak.txt
+          # Append to activity log (keeps history alive = prevents GitHub disabling workflow)
+          echo "[$DATE $TIME] Run #$RUN_NUMBER - OK" >> activity_log.txt
 
       - name: Commit and Push changes
         run: |
